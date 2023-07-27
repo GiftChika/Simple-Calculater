@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    background-color: aquamarine;
+}
+.container{
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+form input{
+    width: 380px;
+    height: 100px;
+    margin-top: 7px;
+    background-color: rgb(105, 105, 103);
+    font-size: 40px;
+    text-align: right;
+}
+.btn{
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    background-color: rgb(255, 254, 254);
+    font-size: 40px;
+    border-radius: 10px;
+    color: black;
+}
+.special{
+    color: green;
+}
+.line1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.line2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn-clear{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(238, 14, 14);
+    font-size: 40px;
+    border-radius: 10px;
+}
+.btn-equal{
+    background-color: green;
+    color: azure;
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 10px;
+    
+}
